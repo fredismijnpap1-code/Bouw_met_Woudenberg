@@ -119,28 +119,60 @@ nav {
   color: var(--green-light);
 }
 
-.hamburgerLineBox {
+.Wrapper {
   position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-5%, -50%);
+  cursor: pointer;
+}
+
+.Wrapper input {
+  display: none !important;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.hamburgerLineBox {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  top: 50%;
-  right: 5%;
-  transform: translate(-5%, -50%);
   width: 2em;
   height: 2em;
-  border: 2px solid red;
-
+  pointer-events: none;
+}
 
 .hamburgerLine {
-  width: 100%;
-  height: 8px;
+  width: 80%;
+  height: 4px;
   background-color: white;
-  border: 1px solid white;
   border-radius: 18px;
+  transition: width 0.3s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
+
+.hamburgerLine:nth-child(2) {
+  transform-origin: left;
+}
+
+.Wrapper:has(input:checked) .hamburgerLine:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+  opacity: 1;
+}
+
+.Wrapper:has(input:checked) .hamburgerLine:nth-child(2) {
+  opacity: 0;
+  width: 0;
+}
+
+.Wrapper:has(input:checked) .hamburgerLine:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+  opacity: 1;
 }
 
 
@@ -1634,6 +1666,102 @@ footer {
   }
 }
 
+/* Hamburger + mobile menu behaviour */
+.Wrapper {
+  display: none; /* hidden on desktop */
+}
+
+/* show hamburger on smaller screens and make the nav list a hidden dropdown */
+@media (max-width: 900px) {
+  .Wrapper {
+    display: block;
+  }
+
+  .Wrapper input {
+    display: none;
+  }
+
+  /* prepare the checkbox so it can be targeted via sibling selectors */
+  .hamburgeMenuBtn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: auto;
+    right: 2rem;
+    top: calc(var(--banner-h) + 0.8rem);
+    display: none !important;
+    opacity: 0;
+    z-index: 200;
+    cursor: pointer;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: calc(var(--banner-h) + var(--nav-h));
+    background: rgba(8,12,8,0.98);
+    padding: 1.25rem 5%;
+    transform: translateY(-12px) scaleY(0.98);
+    transform-origin: top center;
+    transition: transform 0.28s ease, opacity 0.28s ease;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 150;
+  }
+
+  /* when checkbox is checked, show the menu */
+  /* show menu using :has() on the nav parent (no JS) */
+  nav:has(.hamburgeMenuBtn:checked) ul {
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* animate list items into view from under the header */
+  nav ul > li {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: opacity 220ms ease, transform 260ms ease;
+  }
+
+  nav:has(.hamburgeMenuBtn:checked) ul > li {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  nav:has(.hamburgeMenuBtn:checked) ul > li:nth-child(1) { transition-delay: 0.04s; }
+  nav:has(.hamburgeMenuBtn:checked) ul > li:nth-child(2) { transition-delay: 0.08s; }
+  nav:has(.hamburgeMenuBtn:checked) ul > li:nth-child(3) { transition-delay: 0.12s; }
+  nav:has(.hamburgeMenuBtn:checked) ul > li:nth-child(4) { transition-delay: 0.16s; }
+  nav:has(.hamburgeMenuBtn:checked) ul > li:nth-child(5) { transition-delay: 0.20s; }
+  nav:has(.hamburgeMenuBtn:checked) ul > li:nth-child(6) { transition-delay: 0.24s; }
+
+  /* hamburger animation */
+  .hamburgeMenuBtn:checked + .Wrapper .hamburgerLine:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  .hamburgeMenuBtn:checked + .Wrapper .hamburgerLine:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  .hamburgeMenuBtn:checked + .Wrapper .hamburgerLine:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  /* ensure nav links are large enough to tap */
+  nav ul a {
+    padding: 0.9rem 0;
+    display: block;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 600px) {
   section {
     padding: 5rem 6%;
@@ -1663,5 +1791,9 @@ footer {
   .jubileum-banner {
     font-size: 0.68rem;
     gap: 0.7rem;
+  }
+
+  .Wrapper input {
+    display: none;
   }
 }
