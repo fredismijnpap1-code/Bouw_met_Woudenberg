@@ -275,6 +275,32 @@ const PROJECTS = {
       'Vrijblijvende offerte na persoonlijk bezoek',
     ],
   },
+
+  // UITBOUW ────────────────────────────────────────────────────────────────────
+  uitbouw: {
+    tag: 'Uitbouw',
+    title: 'Uitbouw <em>op maat</em>',
+    subtitle: 'Haarlemmermeer & Haarlem — uw woning uitbreiden met een zijwaartse aanbouw.',
+    meta: [
+      { label: 'Type',   value: 'Uitbouw / Aanbouw' },
+      { label: 'Regio',  value: 'Haarlemmermeer & Haarlem' },
+      { label: 'Status', value: 'Opgeleverd' },
+    ],
+    images: [
+      { src: 'images/imagesuitbouwuitbouw_1.jpg.JPG', cls: 'wide', caption: 'Uitbouw — aanbouw aan de woning' },
+    ],
+    desc: [
+      'Een uitbouw vergroot uw woning zijwaarts of aan de achterzijde — ideaal voor een grotere woonkamer, keuken of slaapkamer. Wij realiseren uitbouwen van fundering tot afwerking, volledig sleutelklaar.',
+      'Net als bij al onze projecten verzorgen wij de vergunningaanvraag, het tekenwerk en de coördinatie van alle onderaannemers. U heeft één vast aanspreekpunt: Fred van Woudenberg.',
+    ],
+    features: [
+      'Volledig verzorgd — van vergunning tot oplevering',
+      'Prefab houtskelet of traditionele bouw, uw keuze',
+      'Vergunningaanvraag en tekenwerk door ons verzorgd',
+      'Persoonlijke begeleiding door Fred van Woudenberg',
+      'Vrijblijvende offerte na persoonlijk bezoek',
+    ],
+  },
 };
 
 // ── GALLERY ITEM CLICK HANDLERS ──────────────────────────────────────────────
@@ -286,8 +312,10 @@ const galMap = [
   ['dakkapel_cruquius','dakkapel_cruquius','dakkapel_cruquius','dakrenovatie_haarlem'],
   // tab-nieuwbouw (5 items)
   ['louisahoeve','vijfhuizen','stoeltie','nieuweweg','oudekruisweg'],
+  // tab-uitbouw (1 item)
+  ['uitbouw'],
 ];
-const tabIds = ['verbouw','renovatie','nieuwbouw'];
+const tabIds = ['verbouw','renovatie','nieuwbouw','uitbouw'];
 
 function initGalleryClicks() {
   tabIds.forEach((tab, ti) => {
