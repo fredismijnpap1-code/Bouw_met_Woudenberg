@@ -1671,6 +1671,10 @@ footer {
   display: none; /* hidden on desktop */
 }
 
+.hamburgeMenuBtn {
+  display: none; /* hidden on desktop */
+}
+
 /* show hamburger on smaller screens and make the nav list a hidden dropdown */
 @media (max-width: 900px) {
   .Wrapper {
