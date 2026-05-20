@@ -491,3 +491,10 @@ document.addEventListener('keydown', e => {
 
 // Init gallery clicks after DOM ready
 initGalleryClicks();
+
+// Sluit hamburger menu na klikken op een nav-link
+document.querySelectorAll('ul a[href]').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('hamburgeMenuBtn').checked = false;
+  });
+});
