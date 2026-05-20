@@ -158,16 +158,19 @@ nav {
   width: 80%;
   height: 4px;
   background-color: white;
-  border-radius: 18px;
-  transition: width 0.3s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  border-radius: 2px;
+  transition: width 0.25s ease-in-out, height 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 .hamburgerLine:nth-child(2) {
-  transform-origin: left;
+  transform-origin: center;
 }
 
 .Wrapper:has(input:checked) .hamburgerLine:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+  width: 100%;
+  height: 1.5px;
+  border-radius: 0;
   opacity: 1;
 }
 
@@ -177,7 +180,10 @@ nav {
 }
 
 .Wrapper:has(input:checked) .hamburgerLine:nth-child(3) {
-  transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+  width: 100%;
+  height: 1.5px;
+  border-radius: 0;
   opacity: 1;
 }
 
@@ -1787,16 +1793,22 @@ footer {
 
   /* hamburger animation */
   .hamburgeMenuBtn:checked + .Wrapper .hamburgerLine:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px);
+    transform: translateY(8px) rotate(45deg);
+    width: 100%;
+    height: 1.5px;
+    border-radius: 0;
   }
 
   .hamburgeMenuBtn:checked + .Wrapper .hamburgerLine:nth-child(2) {
     opacity: 0;
-    transform: translateX(-10px);
+    width: 0;
   }
 
   .hamburgeMenuBtn:checked + .Wrapper .hamburgerLine:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+    transform: translateY(-8px) rotate(-45deg);
+    width: 100%;
+    height: 1.5px;
+    border-radius: 0;
   }
 
   /* ensure nav links are large enough to tap */
