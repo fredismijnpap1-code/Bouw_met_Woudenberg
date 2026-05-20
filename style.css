@@ -28,15 +28,20 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
   font-family: var(--font);
   background: var(--black);
   color: var(--cream);
+  max-width: 100%;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+}
+
+img, video, svg, embed, object {
+  max-width: 100%;
 }
 
 
@@ -1678,6 +1683,12 @@ footer {
 
 /* show hamburger on smaller screens and make the nav list a hidden dropdown */
 @media (max-width: 900px) {
+  nav {
+    border-bottom: none;
+    backdrop-filter: none;
+    background: rgb(8, 12, 8);
+  }
+
   .Wrapper {
     display: block;
   }
@@ -1704,10 +1715,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
-    top: calc(var(--banner-h) + var(--nav-h));
+    top: 100%;
     background: rgba(8,12,8,0.98);
     padding: 1.25rem 5%;
     transform: translateY(-12px) scaleY(0.98);
@@ -1790,6 +1801,11 @@ footer {
   }
 
   .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery.nieuwbouw,
+  .gallery.two-col {
     grid-template-columns: 1fr;
   }
 
