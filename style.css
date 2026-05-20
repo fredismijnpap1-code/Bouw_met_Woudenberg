@@ -28,7 +28,7 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: clip;
+  overflow-x: hidden;
 }
 
 body {
@@ -705,21 +705,24 @@ section {
   gap: 0;
   margin-bottom: 3.5rem;
   border: 1px solid rgba(74, 168, 74, 0.2);
-  width: fit-content;
+  width: 100%;
 }
 
 .proj-tab {
-  padding: 0.65rem 1.6rem;
+  flex: 1;
+  padding: 0.8rem 1.2rem;
   font-family: var(--font);
-  font-size: 0.72rem;
+  font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
   border: none;
   background: transparent;
-  color: rgba(239, 244, 238, 0.45);
+  color: rgba(239, 244, 238, 0.55);
   border-right: 1px solid rgba(74, 168, 74, 0.2);
+  border-bottom: 2px solid transparent;
+  text-align: center;
   transition: all 0.2s;
 }
 
@@ -730,11 +733,13 @@ section {
 .proj-tab.active {
   background: var(--green-deep);
   color: var(--green-light);
+  border-bottom: 2px solid var(--green-light);
 }
 
 .proj-tab:hover:not(.active) {
   color: var(--cream);
-  background: rgba(42, 92, 42, 0.1);
+  background: rgba(42, 92, 42, 0.15);
+  border-bottom: 2px solid rgba(74, 168, 74, 0.3);
 }
 
 .proj-section {
@@ -1667,6 +1672,30 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
+  .proj-tabs {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .proj-tab {
+    flex: 0 0 50%;
+    border-right: 1px solid rgba(74, 168, 74, 0.2);
+    border-bottom: 1px solid rgba(74, 168, 74, 0.2);
+  }
+
+  .proj-tab:nth-child(2n) {
+    border-right: none;
+  }
+
+  .proj-tab:nth-child(3),
+  .proj-tab:nth-child(4) {
+    border-bottom: none;
+  }
+
+  .gal-item {
+    aspect-ratio: auto !important;
+  }
+
   nav ul {
     display: none;
   }
@@ -1807,6 +1836,14 @@ footer {
   .gallery.nieuwbouw,
   .gallery.two-col {
     grid-template-columns: 1fr;
+  }
+
+  .gallery .gal-item,
+  .gallery.nieuwbouw .gal-item,
+  .gallery.two-col .gal-item {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+    aspect-ratio: auto !important;
   }
 
   .jubileum-banner {
