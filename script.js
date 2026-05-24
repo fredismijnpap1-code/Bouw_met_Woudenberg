@@ -37,34 +37,39 @@ const PROJECTS = {
     ],
   },
 
-  floriande: {
+  eilanden: {
     tag: 'Verbouw & Opbouw',
-    title: 'Dakopbouwen <em>Floriande</em>',
-    subtitle: 'Floriande, eiland 11, Hoofddorp — meer dan 30 opbouwen gerealiseerd.',
+    title: 'Dakopbouw <em>Floriande, Eilanden</em>',
+    subtitle: 'Floriande, Eilanden, Hoofddorp — complete dakopbouw in dezelfde stijl als de bestaande woning.',
     meta: [
-      { label: 'Locatie',      value: 'Floriande eiland 11, Hoofddorp' },
+      { label: 'Locatie',      value: 'Floriande, Eilanden, Hoofddorp' },
       { label: 'Type',         value: 'Dakopbouw — houtskelet' },
-      { label: 'Aantal',       value: '30+ opbouwen' },
-      { label: 'Tijdsbestek',  value: 'Minder dan 3 jaar' },
+      { label: 'Doorlooptijd', value: '1 dag wind- & waterdicht' },
+      { label: 'Methode',      value: 'Prefab elementen' },
     ],
     images: [
-      { src: 'https://www.bouwmetwoudenberg.nl/images/verbouw/opbouw.jpg',  cls: 'wide', caption: 'Plaatsing met mobiele kraan' },
-      { src: 'https://www.bouwmetwoudenberg.nl/images/verbouw/opbouw2.jpg', cls: 'auto', caption: 'Panelen worden omhoog gehesen' },
-      { src: 'https://www.bouwmetwoudenberg.nl/images/verbouw/opbouw3.jpg', cls: 'auto', caption: 'Detail prefab constructie' },
-      { src: 'https://www.bouwmetwoudenberg.nl/images/verbouw/opbouw4.jpg', cls: 'auto', caption: 'Wind- en waterdicht op dag 1' },
-      { src: 'https://www.bouwmetwoudenberg.nl/images/verbouw/opbouw6.jpg', cls: 'auto', caption: 'Afgewerkte opbouw' },
+      { src: 'images/Eilanden/Hoofd%20foto.jpeg',                                          cls: 'wide', caption: 'Dakopbouw Floriande, Eilanden' },
+      { src: 'images/Eilanden/Voor.jpeg',                                                  cls: 'auto', caption: 'Situatie voor aanvang' },
+      { src: 'images/Eilanden/Tijdens.jpeg',                                               cls: 'auto', caption: 'Plaatsing prefab elementen' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.48%20AM.jpeg',   cls: 'auto', caption: 'Montage dakopbouw' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.48%20AM%20(1).jpeg', cls: 'auto', caption: 'Wind & waterdicht — dag 1' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.48%20AM%20(4).jpeg', cls: 'auto', caption: 'Constructie detail' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.48%20AM%20(5).jpeg', cls: 'auto', caption: 'Panelen ter plaatse' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.49%20AM.jpeg',   cls: 'auto', caption: 'Afwerking dakopbouw' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.49%20AM%20(1).jpeg', cls: 'auto', caption: 'Eindresultaat' },
+      { src: 'images/Eilanden/WhatsApp%20Image%202026-05-20%20at%2011.44.49%20AM%20(2).jpeg', cls: 'auto', caption: 'Opbouw volledig afgewerkt' },
     ],
     desc: [
-      'Wij zijn heel actief in de wijk Floriande, eiland 11 te Hoofddorp. Inmiddels hebben wij in deze wijk al meer dan 30 opbouwen voor onze rekening genomen — en dit in een tijdsbestek van minder dan 3 jaar.',
-      'Elke opbouw wordt in onze loods geprefabriceerd als complete panelen, inclusief isolatie, underlayment en elektrawerk. Ter plaatse worden de panelen met een mobiele kraan in hun geheel omhoog gehesen en bevestigd.',
-      'Het resultaat is steeds hetzelfde: een complete dakopbouw die op dag één al wind- en waterdicht is.',
+      'De wijk Floriande in Hoofddorp bestaat in totaal uit 12 tot 13 specifieke wooneilanden. Deze eilanden (gelegen aan de westkant van de wijk, nabij de IJtocht) zijn grotendeels vernoemd naar Nederlandse Waddeneilanden en Zuid-Hollandse/Zeeuwse polders en worden gekenmerkt door een grote diversiteit aan moderne architectuur en veel groen.',
+      'Voor een woning op de Floriande Eilanden hebben wij een complete dakopbouw gerealiseerd in dezelfde stijl als de bestaande woning. De prefab elementen zijn in onze loods voorbereid en vervolgens ter plaatse gemonteerd.',
+      'Met behulp van prefab elementen is de dakopbouw binnen één dag wind- en waterdicht gemaakt. Hierna is de afwerking verzorgd met de juiste materialen, volledig passend bij de bestaande woning.',
     ],
     features: [
-      '30+ dakopbouwen in Floriande — bewezen vakmanschap',
-      'Snelle plaatsing: in één dag wind- en waterdicht',
-      'Minimale overlast voor bewoners en buurt',
-      'Vaste prijs, heldere planning',
-      'Volledige coördinatie inclusief vergunning en tekenwerk',
+      'Complete dakopbouw in stijl van de bestaande woning',
+      'Prefab elementen voor snelle en efficiënte plaatsing',
+      'Binnen één dag wind- en waterdicht',
+      'Afgewerkt met passende materialen',
+      'Van voorbereiding tot oplevering volledig verzorgd',
     ],
   },
 
@@ -307,9 +312,9 @@ const PROJECTS = {
 // Map each gallery item to its project key
 const galMap = [
   // tab-verbouw (6 items)
-  ['fazantenlaan','fazantenlaan','floriande','floriande','floriande','floriande'],
-  // tab-renovatie (4 items)
-  ['dakkapel_cruquius','dakkapel_cruquius','dakkapel_cruquius','dakrenovatie_haarlem'],
+  ['fazantenlaan','eilanden'],
+  // tab-renovatie (2 items, 1 per project)
+  ['dakkapel_cruquius','dakrenovatie_haarlem'],
   // tab-nieuwbouw (5 items)
   ['louisahoeve','vijfhuizen','stoeltie','nieuweweg','oudekruisweg'],
   // tab-uitbouw (1 item)
