@@ -502,10 +502,10 @@
       <div class="form-g"><label for="achternaam">Achternaam</label><input id="achternaam" type="text" name="achternaam" placeholder="de Vries" required></div>
     </div>
     <div class="form-g"><label for="email">E-mailadres</label><input id="email" type="email" name="email" placeholder="uw@email.nl" required></div>
-    <div class="form-g"><label for="telefoon">Telefoon</label><input id="telefoon" type="tel" name="telefoon" placeholder="06 – __ __ __ __"></div>
+    <div class="form-g"><label for="telefoon">Telefoon</label><input id="telefoon" type="tel" name="telefoon" placeholder="06 12345678" required pattern="[\+]?[0-9][\d\s\-]{8,14}" title="Vul een geldig telefoonnummer in (minimaal 9 cijfers)"></div>
     <div class="form-g">
       <label for="project">Type project</label>
-      <select id="project" name="project">
+      <select id="project" name="project" required>
         <option value="">Selecteer een optie</option>
         <option>Dakopbouw / Aanbouw</option>
         <option>Uitbouw</option>
@@ -516,7 +516,7 @@
         <option>Anders</option>
       </select>
     </div>
-    <div class="form-g"><label for="bericht">Bericht</label><textarea id="bericht" name="bericht" placeholder="Beschrijf uw bouwplannen of stel uw vraag…"></textarea></div>
+    <div class="form-g"><label for="bericht">Bericht</label><textarea id="bericht" name="bericht" placeholder="Beschrijf uw bouwplannen of stel uw vraag…" required></textarea></div>
     <input type="hidden" name="_subject" value="Nieuwe aanvraag via bouwmetwoudenberg.nl">
     <input type="text" name="_gotcha" style="display:none">
     <button type="submit" class="btn-submit" id="submit-btn">Verstuur aanvraag →</button>
