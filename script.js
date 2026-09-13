@@ -86,14 +86,14 @@ const PROJECTS = {
       { label: 'Methode',      value: 'Prefab + mobiele kraan' },
     ],
     images: [
-      { src: 'images/opbouw%20haarlem/IMG_3816.JPG', cls: 'wide', caption: 'Dakopbouw Haarlem — overzicht' },
-      { src: 'images/opbouw%20haarlem/IMG_0470.JPG', cls: 'auto', caption: 'Dakopbouw Haarlem' },
-      { src: 'images/opbouw%20haarlem/IMG_0475.JPG', cls: 'auto', caption: 'Dakopbouw Haarlem' },
-      { src: 'images/opbouw%20haarlem/IMG_0655.JPG', cls: 'auto', caption: 'Plaatsing met mobiele kraan' },
-      { src: 'images/opbouw%20haarlem/IMG_0685.JPG', cls: 'auto', caption: 'Constructie houtskelet' },
-      { src: 'images/opbouw%20haarlem/IMG_0711.JPG', cls: 'auto', caption: 'Wind- en waterdicht dag 1' },
-      { src: 'images/opbouw%20haarlem/IMG_3797.JPG', cls: 'auto', caption: 'Hardhouten kozijnen' },
-      { src: 'images/opbouw%20haarlem/IMG_3817.JPG', cls: 'auto', caption: 'Eindresultaat' },
+      { src: 'images/Opbouw%20haarlem/IMG_3816.JPG', cls: 'wide', caption: 'Dakopbouw Haarlem — overzicht' },
+      { src: 'images/Opbouw%20haarlem/IMG_0470.JPG', cls: 'auto', caption: 'Dakopbouw Haarlem' },
+      { src: 'images/Opbouw%20haarlem/IMG_0475.JPG', cls: 'auto', caption: 'Dakopbouw Haarlem' },
+      { src: 'images/Opbouw%20haarlem/IMG_0655.JPG', cls: 'auto', caption: 'Plaatsing met mobiele kraan' },
+      { src: 'images/Opbouw%20haarlem/IMG_0685.JPG', cls: 'auto', caption: 'Constructie houtskelet' },
+      { src: 'images/Opbouw%20haarlem/IMG_0711.JPG', cls: 'auto', caption: 'Wind- en waterdicht dag 1' },
+      { src: 'images/Opbouw%20haarlem/IMG_3797.JPG', cls: 'auto', caption: 'Hardhouten kozijnen' },
+      { src: 'images/Opbouw%20haarlem/IMG_3817.JPG', cls: 'auto', caption: 'Eindresultaat' },
     ],
     desc: [
       'Voor een bestaande woning in Haarlem realiseerden wij een complete dakopbouw in houtskelet constructie. De prefab panelen werden volledig in onze eigen loods voorbereid — inclusief isolatie, interne indeling met badkamer en slaapkamers, en het elektrawerk.',
@@ -234,9 +234,9 @@ const PROJECTS = {
       { label: 'Status',  value: 'Opgeleverd' },
     ],
     images: [
-      { src: 'images/renovatie%20Haarlem/IMG_3331.jpg', cls: 'wide', caption: 'Renovatie Haarlem — overzicht' },
-      { src: 'images/renovatie%20Haarlem/IMG_3340.jpg', cls: 'auto', caption: 'Originele details behouden' },
-      { src: 'images/renovatie%20Haarlem/IMG_3362.jpg', cls: 'auto', caption: 'Glas-in-lood en interieuraanpassing' },
+      { src: 'images/Renovatie%20Haarlem/IMG_3331.jpg', cls: 'wide', caption: 'Renovatie Haarlem — overzicht' },
+      { src: 'images/Renovatie%20Haarlem/IMG_3340.jpg', cls: 'auto', caption: 'Originele details behouden' },
+      { src: 'images/Renovatie%20Haarlem/IMG_3362.jpg', cls: 'auto', caption: 'Glas-in-lood en interieuraanpassing' },
     ],
     desc: [
       'Voor deze woning in Haarlem hebben wij een complete renovatie uitgevoerd. Alle plafonds, elektra, badkamer, keuken en diverse ramen en deuren zijn volledig verwijderd. Vervolgens zijn nieuwe plafonds aangebracht, de elektra is volledig vernieuwd en alle wanden zijn opnieuw gestukadoord.',
@@ -338,15 +338,15 @@ const PROJECTS = {
       { label: 'Constructie',value: 'Beton & metselwerk' },
     ],
     images: [
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/Nieuwbouw%20Villa%20hoofddorp%20Bert%20Verwey.jpg', cls: 'wide', caption: 'Villa Hoofddorp — ontwerp Bert Verwey' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw.jpg',         cls: 'auto', caption: 'Exterieur villa' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw_1.jpg',       cls: 'auto', caption: 'Ronde vormen en balkons' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw_1%20(1).jpg', cls: 'auto', caption: 'Detail gevel' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw_2.jpg',       cls: 'auto', caption: 'Schuifpui' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw_3.jpg',       cls: 'auto', caption: 'Constructie detail' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw_4.jpg',       cls: 'auto', caption: 'Ronding gevel' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/nieuwbouw_6.jpg',       cls: 'auto', caption: 'Overzicht woning' },
-      { src: 'images/nieuwbouw%20villa%20Hoofddorp/artikel_2.jpg',         cls: 'auto', caption: 'Publicatie' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/Nieuwbouw%20Villa%20hoofddorp%20Bert%20Verwey.jpg', cls: 'wide', caption: 'Villa Hoofddorp — ontwerp Bert Verwey' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw.jpg',         cls: 'auto', caption: 'Exterieur villa' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_1.jpg',       cls: 'auto', caption: 'Ronde vormen en balkons' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_1%20(1).jpg', cls: 'auto', caption: 'Detail gevel' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_2.jpg',       cls: 'auto', caption: 'Schuifpui' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_3.jpg',       cls: 'auto', caption: 'Constructie detail' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_4.jpg',       cls: 'auto', caption: 'Ronding gevel' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_6.jpg',       cls: 'auto', caption: 'Overzicht woning' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/artikel_2.jpg',         cls: 'auto', caption: 'Publicatie' },
     ],
     desc: [
       'Een unieke vrijstaande villa in Hoofddorp, volledig nieuw opgebouwd uit beton en metselwerk, inclusief een kelder. De woning is ontworpen door architect Bert Verwey en kenmerkt zich door een opvallende uitstraling met veel ronde vormen en ronde balkons.',
@@ -414,7 +414,7 @@ const PROJECTS = {
       { label: 'Status',     value: 'Opgeleverd' },
     ],
     images: [
-      { src: 'images/nieuwbouw%20Vijfhuizen/nieuwbouw_21.jpg', cls: 'wide', caption: 'Nieuwbouw woning Vijfhuizen' },
+      { src: 'images/Nieuwbouw%20Vijfhuizen/nieuwbouw_21.jpg', cls: 'wide', caption: 'Nieuwbouw woning Vijfhuizen' },
     ],
     desc: [
       'Deze woning in Vijfhuizen is traditioneel gebouwd met kalkzandsteen — een sterk en duurzaam materiaal dat zowel voor de binnenwanden als de buitengevel is toegepast. De gevel is afgewerkt met gevelsteen en de kozijnen zijn uitgevoerd in hardhout, wat de woning een tijdloze en natuurlijke uitstraling geeft.',
@@ -445,26 +445,26 @@ const PROJECTS = {
       { label: 'Status',   value: 'Opgeleverd' },
     ],
     images: [
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-46.jpg',    cls: 'wide', caption: 'Uitbouw Hoofddorp — overzicht' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-46%202.jpg', cls: 'auto', caption: 'Uitbouw achterzijde' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-46%203.jpg', cls: 'auto', caption: 'Detail gevel' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45.jpg',     cls: 'auto', caption: 'Constructie op locatie' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%202.jpg', cls: 'auto', caption: 'Shovel plaatsing' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%203.jpg', cls: 'auto', caption: 'Dak aanbrengen' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%204.jpg', cls: 'auto', caption: 'Isolatie werkzaamheden' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%205.jpg', cls: 'auto', caption: 'Buitengevel metselwerk' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%206.jpg', cls: 'auto', caption: 'Gevel detail' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%207.jpg', cls: 'auto', caption: 'Vloerverwarming aanleg' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%208.jpg', cls: 'auto', caption: 'Zandcement vloer' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%209.jpg', cls: 'auto', caption: 'Tegelvloer keuken' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%2010.jpg', cls: 'auto', caption: 'Keuken geplaatst' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%2011.jpg', cls: 'auto', caption: 'Afwerking interieur' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%2012.jpg', cls: 'auto', caption: 'Eindresultaat interieur' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-45%2013.jpg', cls: 'auto', caption: 'Overzicht na oplevering' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-44%202.jpg', cls: 'auto', caption: 'Situatie voorbereiding' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-44%203.jpg', cls: 'auto', caption: 'Ruwbouw fase' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-44%204.jpg', cls: 'auto', caption: 'Constructie detail' },
-      { src: 'images/Uitbouw%20hoofddorp/PHOTO-2026-09-12-20-26-44%205.jpg', cls: 'auto', caption: 'Opbouw prefab' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-46.jpg',    cls: 'wide', caption: 'Uitbouw Hoofddorp — overzicht' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-46%202.jpg', cls: 'auto', caption: 'Uitbouw achterzijde' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-46%203.jpg', cls: 'auto', caption: 'Detail gevel' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45.jpg',     cls: 'auto', caption: 'Constructie op locatie' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%202.jpg', cls: 'auto', caption: 'Shovel plaatsing' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%203.jpg', cls: 'auto', caption: 'Dak aanbrengen' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%204.jpg', cls: 'auto', caption: 'Isolatie werkzaamheden' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%205.jpg', cls: 'auto', caption: 'Buitengevel metselwerk' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%206.jpg', cls: 'auto', caption: 'Gevel detail' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%207.jpg', cls: 'auto', caption: 'Vloerverwarming aanleg' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%208.jpg', cls: 'auto', caption: 'Zandcement vloer' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%209.jpg', cls: 'auto', caption: 'Tegelvloer keuken' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%2010.jpg', cls: 'auto', caption: 'Keuken geplaatst' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%2011.jpg', cls: 'auto', caption: 'Afwerking interieur' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%2012.jpg', cls: 'auto', caption: 'Eindresultaat interieur' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-45%2013.jpg', cls: 'auto', caption: 'Overzicht na oplevering' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-44%202.jpg', cls: 'auto', caption: 'Situatie voorbereiding' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-44%203.jpg', cls: 'auto', caption: 'Ruwbouw fase' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-44%204.jpg', cls: 'auto', caption: 'Constructie detail' },
+      { src: 'images/Uitbouw%20Hoofddorp/PHOTO-2026-09-12-20-26-44%205.jpg', cls: 'auto', caption: 'Opbouw prefab' },
     ],
     desc: [
       'Aan de achterzijde van deze woning in Hoofddorp hebben wij een complete uitbouw gerealiseerd. De constructie is prefab in onze eigen loods gebouwd en vervolgens met de shovel op de juiste positie geplaatst — snel, nauwkeurig en met minimale overlast.',
@@ -541,13 +541,9 @@ const galMap = [
 const tabIds = ['verbouw','renovatie','nieuwbouw','uitbouw'];
 
 function initGalleryClicks() {
-  tabIds.forEach((tab, ti) => {
-    const section = document.getElementById('tab-' + tab);
-    if (!section) return;
-    section.querySelectorAll('.gal-item').forEach((item, ii) => {
-      const key = (galMap[ti] && galMap[ti][ii]) || null;
-      if (key) item.addEventListener('click', () => openLightbox(key));
-    });
+  document.querySelectorAll('.gal-item[data-project]').forEach(item => {
+    const key = item.dataset.project;
+    item.addEventListener('click', () => openLightbox(key));
   });
 }
 
