@@ -1786,6 +1786,15 @@ footer {
     background: rgb(8, 12, 8);
   }
 
+  /* alleen het Bouwend Nederland-logo opzij schuiven zodat het niet onder het hamburgermenu valt */
+  .nav-bouwend-nl {
+    transform: translate(-1.25rem, 4px);
+  }
+
+  .nav-bouw-garant {
+    transform: translate(-1rem, 4px);
+  }
+
   .Wrapper {
     display: block;
   }
@@ -1924,9 +1933,16 @@ footer {
     aspect-ratio: auto !important;
   }
 
+  /* hogere banner op telefoon zodat de tekst niet tegen de randen zit */
+  :root {
+    --banner-h: 56px;
+  }
+
   .jubileum-banner {
     font-size: 0.68rem;
     gap: 0.7rem;
+    padding: 0 1rem;
+    text-align: center;
   }
 
   .Wrapper input {
