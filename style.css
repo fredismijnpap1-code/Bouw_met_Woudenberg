@@ -575,19 +575,35 @@ section {
   position: relative;
 }
 
-.about-imgwrap img {
+.about-slides {
+  position: relative;
   width: 100%;
-  height: 560px;
-  object-fit: cover;
-  filter: saturate(0.78) brightness(0.88);
+  aspect-ratio: 1 / 1;
   border: 1px solid rgba(74, 168, 74, 0.12);
+}
+
+.about-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  filter: saturate(0.78) brightness(0.88);
   display: block;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.about-slide.active {
+  opacity: 1;
 }
 
 .about-badge {
-  position: absolute;
-  bottom: -1.8rem;
-  right: -1.5rem;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 1rem;
   background: var(--green-deep);
   border: 1px solid var(--green);
   padding: 1.75rem 2.2rem;
@@ -995,6 +1011,15 @@ section {
   color: var(--green-pale);
   font-weight: 600;
 }
+
+.nav-bouwend-nl {
+  display: flex;
+  align-items: center;
+  opacity: 0.80;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+.nav-bouwend-nl:hover { opacity: 1; }
 
 .bouwgarant-logo {
   margin-top: 6rem;
@@ -1877,7 +1902,7 @@ footer {
   }
 
   .about-badge {
-    right: 0;
+    margin-right: 0;
   }
 
   .form-row {
@@ -1907,4 +1932,56 @@ footer {
   .Wrapper input {
     display: none;
   }
+}
+/* ── ABOUT SLIDESHOW ────────────────────────────────────────────────────────── */
+.about-prev,
+.about-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  z-index: 2;
+}
+.about-prev { left: 1rem; }
+.about-next { right: 1rem; }
+.about-prev:hover,
+.about-next:hover { background: rgba(74,168,74,0.6); }
+
+.about-dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.about-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+.about-dot.active {
+  background: var(--green-light);
+  transform: scale(1.3);
+}
+
+@media (max-width: 600px) {
+  .about-prev, .about-next { width: 2.2rem; height: 2.2rem; font-size: 1.4rem; }
 }

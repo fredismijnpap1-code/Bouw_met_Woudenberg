@@ -4,6 +4,54 @@
 const PROJECTS = {
 
   // VERBOUW & OPBOUW ──────────────────────────────────────────────────────────
+  opbouw_heemstede: {
+    tag: 'Verbouw & Opbouw',
+    title: 'Opbouw <em>Heemstede</em>',
+    subtitle: 'Heemstede — dakopbouw gerealiseerd op een bestaande woning.',
+    meta: [
+      { label: 'Locatie',  value: 'Heemstede' },
+      { label: 'Type',     value: 'Dakopbouw' },
+      { label: 'Aanpak',   value: 'Volledig verzorgd' },
+      { label: 'Status',   value: 'Opgeleverd' },
+    ],
+    images: [
+      { src: 'images/Opbouw%20Heemstede/1.JPG',  cls: 'wide', caption: 'Opbouw Heemstede — overzicht' },
+      { src: 'images/Opbouw%20Heemstede/2.JPG',  cls: 'auto', caption: 'Aanzicht opbouw' },
+      { src: 'images/Opbouw%20Heemstede/3.JPG',  cls: 'auto', caption: 'Constructie' },
+      { src: 'images/Opbouw%20Heemstede/4.JPG',  cls: 'auto', caption: 'Ruwbouw fase' },
+      { src: 'images/Opbouw%20Heemstede/5.JPG',  cls: 'auto', caption: 'Bouw voortgang' },
+      { src: 'images/Opbouw%20Heemstede/7.JPG',  cls: 'auto', caption: 'Constructie detail' },
+      { src: 'images/Opbouw%20Heemstede/8.JPG',  cls: 'auto', caption: 'Dakconstructie' },
+      { src: 'images/Opbouw%20Heemstede/9.JPG',  cls: 'auto', caption: 'Opbouw in aanbouw' },
+      { src: 'images/Opbouw%20Heemstede/10.JPG', cls: 'auto', caption: 'Metselwerk' },
+      { src: 'images/Opbouw%20Heemstede/11.JPG', cls: 'auto', caption: 'Gevel detail' },
+      { src: 'images/Opbouw%20Heemstede/12.JPG', cls: 'auto', caption: 'Kozijnen geplaatst' },
+      { src: 'images/Opbouw%20Heemstede/13.JPG', cls: 'auto', caption: 'Afwerking exterieur' },
+      { src: 'images/Opbouw%20Heemstede/14.JPG', cls: 'auto', caption: 'Dak aanleg' },
+      { src: 'images/Opbouw%20Heemstede/15.JPG', cls: 'auto', caption: 'Isolatie' },
+      { src: 'images/Opbouw%20Heemstede/16.JPG', cls: 'auto', caption: 'Interieur opbouw' },
+      { src: 'images/Opbouw%20Heemstede/18.JPG', cls: 'auto', caption: 'Binnenwerk' },
+      { src: 'images/Opbouw%20Heemstede/19.JPG', cls: 'auto', caption: 'Afwerking' },
+      { src: 'images/Opbouw%20Heemstede/20.JPG', cls: 'auto', caption: 'Detail afwerking' },
+      { src: 'images/Opbouw%20Heemstede/22.JPG', cls: 'auto', caption: 'Eindresultaat — exterieur' },
+      { src: 'images/Opbouw%20Heemstede/23.JPG', cls: 'auto', caption: 'Eindresultaat — aanzicht' },
+      { src: 'images/Opbouw%20Heemstede/24.JPG', cls: 'auto', caption: 'Eindresultaat — gevel' },
+      { src: 'images/Opbouw%20Heemstede/25.JPG', cls: 'auto', caption: 'Eindresultaat — opgeleverd' },
+    ],
+    desc: [
+      'Op deze woning in Heemstede hebben wij een complete dakopbouw gerealiseerd. Van de eerste constructiewerkzaamheden tot de uiteindelijke afwerking — alles is door ons team vakkundig uitgevoerd.',
+      'De opbouw is zorgvuldig ingepast bij de bestaande woning, met metselwerk en kozijnen die aansluiten bij de bestaande stijl. Het dak is volledig afgewerkt en geïsoleerd.',
+      'Het eindresultaat is een ruime, lichte verdieping die de woning aanzienlijk uitbreidt en volledig passend is bij de bestaande architectuur.',
+    ],
+    features: [
+      'Dakopbouw op bestaande woning',
+      'Metselwerk en kozijnen passend bij bestaande stijl',
+      'Dak volledig afgewerkt en geïsoleerd',
+      'Interieur compleet afgewerkt',
+      'Van ruwbouw tot oplevering volledig verzorgd',
+    ],
+  },
+
   fazantenlaan: {
     tag: 'Verbouw & Opbouw',
     title: 'Dakopbouw <em>Fazantenlaan</em>',
@@ -142,6 +190,59 @@ const PROJECTS = {
       'Plaatsing met mobiele kraan — snel en efficiënt',
       'Rolluiken ingebouwd in de constructie',
       'Van ontwerp tot oplevering volledig verzorgd',
+    ],
+  },
+
+  verbouwing_cruquius_dakkapellen: {
+    tag: 'Verbouw & Opbouw',
+    title: 'Verbouwing <em>Cruquius — Dakkapellen</em>',
+    subtitle: 'Cruquius — plaatsing van dakkapellen en complete interieurverbouwing.',
+    meta: [
+      { label: 'Locatie',      value: 'Cruquius' },
+      { label: 'Type',         value: 'Dakkapellen & verbouwing' },
+      { label: 'Aanpak',       value: 'Van buiten naar binnen' },
+      { label: 'Afwerking',    value: 'Compleet verzorgd' },
+    ],
+    images: [
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/1%20Hoofdfoto%20verbouwing%20cruquius.jpeg', cls: 'wide', caption: 'Verbouwing Cruquius — dakkapellen' },
+      // Buiten
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%201.jpg', cls: 'auto', caption: 'Exterieur met dakkapellen' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%202.jpg', cls: 'auto', caption: 'Dakkapel voorzijde' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%203.jpg', cls: 'auto', caption: 'Dakkapel detail' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%204.jpg', cls: 'auto', caption: 'Dakkapel zij-aanzicht' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%205.jpg', cls: 'auto', caption: 'Overzicht exterieur' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%206.jpg', cls: 'auto', caption: 'Aanzicht woning' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%207.jpg', cls: 'auto', caption: 'Buitenzijde dakkapel' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%208.jpg', cls: 'auto', caption: 'Buitenzijde — overzicht' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/2%20Buiten%209.jpg', cls: 'auto', caption: 'Exterieur totaalbeeld' },
+      // Verbouwing binnen
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/3%20binnen%20tijdens%201.jpg', cls: 'auto', caption: 'Verbouwing — ruwbouw' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/3%20binnen%20tijdens%202.jpg', cls: 'auto', caption: 'Verbouwing — constructie' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/3%20binnen%20tijdens%203.jpg', cls: 'auto', caption: 'Verbouwing — werk in uitvoering' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/3%20binnen%20tijdens%204.jpg', cls: 'auto', caption: 'Verbouwing — voortgang' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/3%20binnen%20tijdens%205.jpg', cls: 'auto', caption: 'Verbouwing — tussenfase' },
+      // Eindresultaat
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/4%20binnen%20klaar%202.jpg', cls: 'auto', caption: 'Eindresultaat — afwerking' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/4%20binnen%20klaar%203.jpg', cls: 'auto', caption: 'Eindresultaat — ruimte' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/4%20binnen%20klaar%204.jpg', cls: 'auto', caption: 'Eindresultaat — lichtinval' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/4%20binnen%20klaar%205.jpg', cls: 'auto', caption: 'Eindresultaat — voltooide verbouwing' },
+      // Begin
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/5%20binnen%20voor%201.jpg', cls: 'auto', caption: 'Situatie voor aanvang' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/5%20binnen%20voor%202.jpg', cls: 'auto', caption: 'Beginsituatie' },
+      { src: 'images/verbouwing%20cruquius%3Adakkapellen/5%20binnen%20voor%203.jpg', cls: 'auto', caption: 'Voor de verbouwing' },
+    ],
+    desc: [
+      'Bij aankoop van de woning hebben wij direct een complete verbouwing uitgevoerd. De bestaande vloeren zijn verwijderd en vervangen door nieuwe zandcementvloeren met vloerverwarming, aangevuld met tegelvloeren op de gewenste plekken. Diverse binnenwanden zijn vervangen, er is een nieuwe trap geplaatst en meerdere buitenkozijnen zijn vernieuwd. Tevens zijn de voorbereidingen getroffen voor de keuken en is de volledige elektrische installatie vervangen.',
+      'In een tweede fase is de zolder volledig verbouwd. Er zijn twee grote dakkapellen gerealiseerd, beide prefab vervaardigd in onze eigen loods. Dit zorgt voor een strakke afwerking, snelle plaatsing en minimale overlast. De dakkapellen brengen veel licht en extra woonruimte op de zolder. Aanvullend zijn diverse dakramen geplaatst, vloerverwarming aangebracht en is een complete badkamer ingericht. Hiervoor zijn dragende constructies aangepast en is een nieuwe elektrische installatie aangelegd.',
+      'Het resultaat is een woning die van boven tot onder volledig naar wens is verbouwd — met oog voor detail, degelijk vakmanschap en een prettige samenwerking met de bewoners.',
+    ],
+    features: [
+      'Complete verbouwing begane grond bij aankoop woning',
+      'Vloeren verwijderd — nieuwe zandcement- en tegelvloeren met vloerverwarming',
+      'Diverse binnenwanden vervangen, nieuwe trap geplaatst',
+      'Buitenkozijnen vernieuwd, voorbereidingen keuken, elektrische installatie vervangen',
+      'Zolder verbouwd met twee grote dakkapellen — prefab in eigen loods gemaakt',
+      'Badkamer op zolder, vloerverwarming, dragende constructies gewijzigd',
     ],
   },
 
@@ -339,6 +440,29 @@ const PROJECTS = {
     ],
     images: [
       { src: 'images/Nieuwbouw%20villa%20Hoofddorp/Nieuwbouw%20Villa%20hoofddorp%20Bert%20Verwey.jpg', cls: 'wide', caption: 'Villa Hoofddorp — ontwerp Bert Verwey' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6163.jpg', cls: 'auto', caption: 'Interieur villa' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6165.jpg', cls: 'auto', caption: 'Woonruimte' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6166.jpg', cls: 'auto', caption: 'Detail interieur' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6167.jpg', cls: 'auto', caption: 'Ruimte en licht' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6168.jpg', cls: 'auto', caption: 'Vloer en afwerking' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6169.jpg', cls: 'auto', caption: 'Trap' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6170.jpg', cls: 'auto', caption: 'Hal' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6171.jpg', cls: 'auto', caption: 'Keuken' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6172.jpg', cls: 'auto', caption: 'Badkamer' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6173.jpg', cls: 'auto', caption: 'Slaapkamer' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6174.jpg', cls: 'auto', caption: 'Ronde wand detail' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6175.jpg', cls: 'auto', caption: 'Balkon' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6176.jpg', cls: 'auto', caption: 'Uitzicht balkon' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6177.jpg', cls: 'auto', caption: 'Gevel detail' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6178.jpg', cls: 'auto', caption: 'Exterieur aanzicht' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6179.jpg', cls: 'auto', caption: 'Tuin aanzicht' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6180.jpg', cls: 'auto', caption: 'Voorzijde villa' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6181.jpg', cls: 'auto', caption: 'Achterzijde' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6182.jpg', cls: 'auto', caption: 'Zij-aanzicht' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6183.jpg', cls: 'auto', caption: 'Constructie ronde vormen' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6184.jpg', cls: 'auto', caption: 'Afwerking buitenzijde' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6185.jpg', cls: 'auto', caption: 'Totaalbeeld villa' },
+      { src: 'images/Nieuwbouw%20villa%20Hoofddorp/IMG_6186.jpg', cls: 'auto', caption: 'Eindresultaat' },
       { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw.jpg',         cls: 'auto', caption: 'Exterieur villa' },
       { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_1.jpg',       cls: 'auto', caption: 'Ronde vormen en balkons' },
       { src: 'images/Nieuwbouw%20villa%20Hoofddorp/nieuwbouw_1%20(1).jpg', cls: 'auto', caption: 'Detail gevel' },
@@ -433,6 +557,54 @@ const PROJECTS = {
 
   // UITBOUW ────────────────────────────────────────────────────────────────────
 
+
+  uitbouw_heemstede: {
+    tag: 'Uitbouw',
+    title: 'Uitbouw <em>Heemstede</em>',
+    subtitle: 'Heemstede — uitbouw aan de achterzijde, compleet afgewerkt.',
+    meta: [
+      { label: 'Locatie', value: 'Heemstede' },
+      { label: 'Type',    value: 'Uitbouw achterzijde' },
+      { label: 'Aanpak',  value: 'Volledig verzorgd' },
+      { label: 'Status',  value: 'Opgeleverd' },
+    ],
+    images: [
+      { src: 'images/Uitbouw%20heemstede/1.JPG',         cls: 'wide', caption: 'Uitbouw Heemstede — overzicht' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1514.JPG',  cls: 'auto', caption: 'Exterieur uitbouw' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1515.JPG',  cls: 'auto', caption: 'Aanzicht achterzijde' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1516.JPG',  cls: 'auto', caption: 'Gevel detail' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1517.JPG',  cls: 'auto', caption: 'Constructie' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1518.JPG',  cls: 'auto', caption: 'Bouw fase' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1519.JPG',  cls: 'auto', caption: 'Metselwerk' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1520.JPG',  cls: 'auto', caption: 'Voortgang' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1521.JPG',  cls: 'auto', caption: 'Ruwbouw' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1522.JPG',  cls: 'auto', caption: 'Dak aanleg' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1523.JPG',  cls: 'auto', caption: 'Constructie detail' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1524.JPG',  cls: 'auto', caption: 'Afwerking exterieur' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1525.JPG',  cls: 'auto', caption: 'Interieur' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1526.JPG',  cls: 'auto', caption: 'Binnenwerk' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1527.JPG',  cls: 'auto', caption: 'Afwerking' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1528.JPG',  cls: 'auto', caption: 'Detail afwerking' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1529.JPG',  cls: 'auto', caption: 'Interieur overzicht' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1530.JPG',  cls: 'auto', caption: 'Bijna klaar' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1643.JPG',  cls: 'auto', caption: 'Eindresultaat — exterieur' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1646.JPG',  cls: 'auto', caption: 'Eindresultaat — aanzicht' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1647.JPG',  cls: 'auto', caption: 'Eindresultaat — gevel' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1648.JPG',  cls: 'auto', caption: 'Eindresultaat — totaal' },
+      { src: 'images/Uitbouw%20heemstede/DSCN1654.JPG',  cls: 'auto', caption: 'Eindresultaat — opgeleverd' },
+    ],
+    desc: [
+      'Aan de achterzijde van deze woning in Heemstede hebben wij een complete uitbouw gerealiseerd. Van de fundering tot de dakafwerking en het interieur — alles is door ons team verzorgd.',
+      'De uitbouw is naadloos aangebracht aan de bestaande woning, met zorgvuldig metselwerk dat aansluit bij de bestaande gevel. Het dak is volledig afgewerkt en geïsoleerd.',
+      'Het eindresultaat is een ruimte die volledig geïntegreerd is met de bestaande woning en direct naar wens van de bewoners is afgewerkt.',
+    ],
+    features: [
+      'Uitbouw achterzijde — van fundering tot oplevering',
+      'Metselwerk passend bij bestaande gevel',
+      'Dak volledig afgewerkt en geïsoleerd',
+      'Interieur compleet afgewerkt',
+    ],
+  },
 
   uitbouw_hoofddorp: {
     tag: 'Uitbouw',
@@ -530,13 +702,13 @@ const PROJECTS = {
 // Map each gallery item to its project key
 const galMap = [
   // tab-verbouw (6 items)
-  ['eilanden','aerdenhout','opbouw_haarlem','dakkapel_cruquius_verbouw','verbouwing_heemstede','fazantenlaan','haarlem_otten'],
+  ['eilanden','aerdenhout','verbouwing_cruquius_dakkapellen','opbouw_haarlem','dakkapel_cruquius_verbouw','verbouwing_heemstede','opbouw_heemstede','fazantenlaan','haarlem_otten'],
   // tab-renovatie (2 items, 1 per project)
   ['houtschuur_cruquius','renovatie_haarlem'],
   // tab-nieuwbouw (5 items)
   ['villa_hoofddorp','nieuwbouw_cruquius','nieuwbouw_vijfhuizen'],
   // tab-uitbouw (1 item)
-  ['uitbouw_hoofddorp','eindhoven_uitbouw'],
+  ['uitbouw_heemstede','uitbouw_hoofddorp','eindhoven_uitbouw'],
 ];
 const tabIds = ['verbouw','renovatie','nieuwbouw','uitbouw'];
 
@@ -714,6 +886,38 @@ initGalleryClicks();
 // Gebruik hero-foto als thumbnail voor Villa Hoofddorp
 const villaThumb = document.querySelector('#tab-nieuwbouw .gal-item img');
 if (villaThumb) villaThumb.src = document.getElementById('hero-img').src;
+
+// ── ABOUT SLIDESHOW ──────────────────────────────────────────────────────────
+(function () {
+  const slides = document.querySelectorAll('.about-slide');
+  const dots   = document.querySelectorAll('.about-dot');
+  if (!slides.length) return;
+
+  let current = 0;
+  let timer;
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function startTimer() {
+    clearInterval(timer);
+    timer = setInterval(next, 5000);
+  }
+
+  document.querySelector('.about-next')?.addEventListener('click', () => { next(); startTimer(); });
+  document.querySelector('.about-prev')?.addEventListener('click', () => { prev(); startTimer(); });
+  dots.forEach((dot, i) => dot.addEventListener('click', () => { goTo(i); startTimer(); }));
+
+  startTimer();
+})();
 
 // Sluit hamburger menu na klikken op een nav-link
 document.querySelectorAll('ul a[href]').forEach(link => {
