@@ -248,6 +248,23 @@ nav ul a:hover {
   filter: saturate(0.8) brightness(0.85);
 }
 
+/* diavoorstelling startfoto's: alleen de actieve foto is zichtbaar */
+.hero-slide {
+  opacity: 0;
+  transition: filter 3s ease, opacity 1.5s ease;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
+/* op de telefoon het linkerdeel van de Aerdenhout-foto tonen */
+@media (max-width: 600px) {
+  .hero-aerdenhout {
+    object-position: left center;
+  }
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
