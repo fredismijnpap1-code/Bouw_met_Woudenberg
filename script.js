@@ -889,10 +889,21 @@ window.addEventListener('scroll', () => {
   nav.style.background = window.scrollY > 60 ? 'rgba(8,12,8,0.98)' : 'rgba(8,12,8,0.92)';
 });
 
-// Hero image
-const heroImg = document.getElementById('hero-img');
-if (heroImg.complete) heroImg.classList.add('loaded');
-else heroImg.addEventListener('load', () => heroImg.classList.add('loaded'));
+// Hero images (diavoorstelling)
+const heroSlides = document.querySelectorAll('.hero-slide');
+heroSlides.forEach(img => {
+  if (img.complete) img.classList.add('loaded');
+  else img.addEventListener('load', () => img.classList.add('loaded'));
+});
+
+if (heroSlides.length > 1 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  let heroIndex = 0;
+  setInterval(() => {
+    heroSlides[heroIndex].classList.remove('active');
+    heroIndex = (heroIndex + 1) % heroSlides.length;
+    heroSlides[heroIndex].classList.add('active');
+  }, 6000);
+}
 
 // Project tabs
 function showTab(name, btn) {
